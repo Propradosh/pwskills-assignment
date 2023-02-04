@@ -1,0 +1,77 @@
+Q1. Who developed Python Programming Language?
+Ans: Python Language is developed by a Dutch programmer “Guido van Rossum”
+
+Q2. Whcih type of Programming does Python support?
+Ans: Python is an interpreted programming language, which supports imperative ,object-oriented, structured, and functiona programming.
+
+Q3. Is Python case Sensitive when dealing with identifiers?
+Ans: Yes Python is case sensitive when dealing with identifiers.
+
+Q4. What is the correct extension of the Python file?
+Ans:  “.py” is the correct extension of the Python file.
+
+Q5. Is Python code compliled or Interpreted?
+Ans: Python code is interpreted.
+
+Q6. Name a few blocks of code used to define in Python language?
+Ans:  Indentation is used to define block of code in Python language.
+But I confused about block of code just write a code to create I right angle triangle.
+n=15
+for i in range(0,n):
+for j in range(0,i+1):
+print("*",end="")
+print("\r")
+
+Q7. State a character used to give single-line comments in Python?
+Ans:  “#” is used to give single-line comments in Python, and “””  “”” is used for multi-line comments.
+
+Q8. Mention functions which can help us to find the version of python that we are currently working on?
+Ans: sys.version
+Example
+Code
+import sys
+print("Python version")
+print (sys.version)
+Output :    
+Python version
+3.10.8 | packaged by conda-forge | (main, Nov 22 2022, 08:26:04) [GCC 10.4.0]
+
+Q9. Python supports the creation of anonymous functions at runtime, using a contructor called......?
+Ans: lambda
+
+Q10. What does PIP stands for in Python?
+Ans: Preferred Installer Program
+
+Q11. Mention a few built-in function in Python?
+Ans: print( ),   type( ),   input( ),  max(),  int(),  str() etc.
+
+Q12. What is the maximum possible length of an identifier in Python?
+Ans: Maximum allowed length for an identifier is 79 character in python.
+
+Q13. What are the benefits of using Python?
+Ans:
+•	Open-source and Widely used.
+•	Famous for it capability in deep learning , machine learning , Artificial Inteligence.
+•	Syntax quite similar to English language.
+•	Simple and easy to learn.
+•	Huge Library and community.
+
+Q14. How is memory managed in Python?
+Ans:  In Python memory managed dynamically, in case Python we just initiate python object rest all memory allocation will be handled by python itself, it dynamically allocate memory according to object features.
+
+Q15. How to install Python on Windows and set Path Variables?
+•	Ans. Search for "Download Python"  
+•	Choose the first link(https://www.anaconda.com/) and download 
+•	After downloading install it to desired path and just follow the instruction
+•	After installation complete now we have to set path variable
+•	To set path first open Python folder where it installed(C://Python310)
+•	Copy this path and Open "Edit the system environment variable" by search on system or Right click on My Computer>Properties>> Advance System Setting>> Environment variable>> 
+•	Now on Environment Variable box we have two opton either set Python Path for User only or at whole System (if you go for system be carefull as one wrong move might affect working of system)
+•	Find "path" in click edit>> new >> path Python folder path here
+
+Q16. Is identation required in Python?
+Ans: YES, Indentation is necessary for Python. It specifies a block of code.
+
+	
+	
+
